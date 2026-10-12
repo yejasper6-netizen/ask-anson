@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ask Anson"
+  short_description: "主动调用后，根据当前问题选择合适的思考方法，按需读取指令并直接执行"
+  default_prompt: "使用 $ask-anson，根据我当前的问题选择合适的方法，说明选择依据并直接帮我解决。"
+policy:
+  allow_implicit_invocation: false
