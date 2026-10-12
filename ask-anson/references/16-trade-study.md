@@ -6,6 +6,8 @@
 
 用一致尺度列出各方案的事实、估计与缺口，避免重复计算相似标准。加权评分可作为辅助，分数不能抵消硬约束。改变重要输入或偏好，检查推荐是否稳定；接近或敏感时保留多个方案并给翻转条件。
 
+每个推荐翻转分支都要重新检查候选的全部硬门槛，写清条件的上下界；一个方案失去资格，不代表备选自动合格。预算或期限收紧后，备选也可能不满足。没有已知可行方案时明确给出“当前无可行选项”，不强选备选，也不擅自放宽条件。
+
 交付可行选项、比较依据、推荐、限制与下一步需补的信息。问题简单时用短表和条件性判断，不为了正式流程制造评分。矩阵与评分支持人的决定，不替代解释。
 
 来源：NASA Systems Engineering Handbook 的 [6.8 Decision Analysis](https://www.nasa.gov/reference/6-8-decision-analysis/) 与 [4.4 Design Solution Definition](https://www.nasa.gov/reference/4-4-design-solution-definition/)。执行指令为本项目独立适配。

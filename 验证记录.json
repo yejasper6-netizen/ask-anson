@@ -12,11 +12,11 @@
   "migration_backup_saved": true,
   "installed_file_hash_match": true,
   "installed_file_count": 21,
-  "installed_skill_sha256": "12e6790ee5585671b51930ab7493df5fded6169bd24bb2a0479811152ee9f51f",
+  "installed_skill_sha256": "e6aff706c1cfb080cdfa6c0d48bfe7d74ef638fbd309cceb9ff818d7daf410ac",
   "archive": "<workspace>/outputs/ask-anson.zip",
   "archive_integrity": "PASS",
   "installed_files": {
-    "SKILL.md": "12e6790ee5585671b51930ab7493df5fded6169bd24bb2a0479811152ee9f51f",
+    "SKILL.md": "e6aff706c1cfb080cdfa6c0d48bfe7d74ef638fbd309cceb9ff818d7daf410ac",
     "agents/openai.yaml": "1df1597a0b1df8b5ea9cac498e84d45e8050ed9a05e703280e8dae156d7feaf0",
     "references/01-socratic-questioning.md": "6c92e6d9161a89c9bc864994ab79bc479e42a83a2d8278887bf456867a99dfdf",
     "references/02-dual-layer-explain.md": "7c00df19bdf18f0a8b66d25db238c8429c7d03bc3bc5efafe5efa19921c0a3de",
@@ -27,13 +27,13 @@
     "references/07-first-principles.md": "963a23b712f846c4444f15247154d4f99145e0b611b089dcfa8f89f9879b97e0",
     "references/08-cross-domain-borrow.md": "5806c1ac4e2de488339e856144cf4392b285108b0e68625cccb1a6cc8cf73264",
     "references/09-steelman-both-sides.md": "48a4522112cbe424b9ccdd75dccdd3072a9579de3f73fbb1635874f2d348e640",
-    "references/10-minimum-experiment.md": "17e16bcd43f410493583832a505b75f1f2b94deb6424b2e51759084407933f61",
+    "references/10-minimum-experiment.md": "7f77e36e1ce99c7d31108163bd2cc10e878b6c46dac25163af86042e0001d5a0",
     "references/11-hidden-talent.md": "97d221e49501a8cd4d535feee59846eec114b5cb0fe3a9f8c74bb046ddb35f5b",
     "references/12-life-design.md": "996f38953429abc6b40b93090069bce2619409b8a401513322aa697180bee7c5",
     "references/13-project-premortem.md": "db56a80d4a29b76f74ea40cedbd8e2ef861f231626996c8abd6bab0b8b61f71c",
     "references/14-theory-of-constraints.md": "7c04fc1a6ac42479e2433759756c8fbd436a307f1745b5902a588038d0416f3b",
     "references/15-fermi-estimation.md": "d14ec632f803cd866cb8a85d294ff6264700accf63578a41b534d1b76d46399e",
-    "references/16-trade-study.md": "050eefb990090cd8f3ff8a7c3fa9de9a0e8b6b00ce5cd922140100daf54dd9e4",
+    "references/16-trade-study.md": "69b74197795387f0d00ff895ed727dce730060cc6e754b8ac569280b467cd4fa",
     "references/17-cynefin-context.md": "cea38a3034358b5589f200f3d8338cd547d5e05ffe71c418c7ad3e2cc1c8b0f3",
     "references/18-after-action-review.md": "22965b945640d56ef4c1aaefbf98d45f61378922b31de59c9b9b2f85489090eb",
     "references/source.md": "516f239cd78079213f3cea5b254ec3b3fc6e5feebbdc3198e431cc18d644ff24"
@@ -43,7 +43,7 @@
   "answer_quality_improvement_proven": false,
   "github_publication_completed": true,
   "chatcut_video_completed": false,
-  "archive_sha256": "43ead60918bc04cc796af17d7aeca06c8e11547801097a6887ccbe07d6eda30e",
+  "archive_sha256": "16d828ed62663b71b6c89ddf8b268d637f306a33d5ffe2e9eff556e50d495e13",
   "archive_current_install_byte_match": true,
   "runtime_behavior_evaluation_scope": "直接读取已安装入口、选法与方法文件、实际回答；10个受控模拟场景和续答/控制例。",
   "runtime_behavior_evaluation_records": "Ask-Anson-测试记录.json",
@@ -121,7 +121,7 @@
       "after_sha256": "48a4522112cbe424b9ccdd75dccdd3072a9579de3f73fbb1635874f2d348e640"
     }
   ],
-  "router_changed_during_prompt_repairs": false,
+  "router_changed_during_prompt_repairs": true,
   "route_stability_statistics_verified": false,
   "all_18_methods_behavior_verified": false,
   "real_business_execution_verified": false,
@@ -130,5 +130,49 @@
   "github_repository_public": true,
   "github_content_commit": "eb650c0ae93f97561eb520e4b8b3011e3f8d8d64",
   "github_skill_and_archive_hash_match": true,
-  "github_initial_tracked_files_verified": 29
+  "github_initial_tracked_files_verified": 29,
+  "github_latest_verified_commit": "a69272fee685dd6287fa994f3706c52c67eb8005",
+  "github_final_tracked_files_verified": 30,
+  "multiturn_priority_rules_updated": true,
+  "multiturn_behavior_evaluation_completed": true,
+  "multiturn_behavior_evaluation_records": "Ask-Anson-多轮测试记录.json",
+  "multiturn_behavior_counts": {
+    "main_dialogues": 12,
+    "main_answers": 36,
+    "main_answer_counts": {
+      "pass": 35,
+      "minor_issue": 1
+    },
+    "repair_dialogues": 2,
+    "repair_answers": 4,
+    "repair_answer_counts": {
+      "pass": 4
+    },
+    "total_answers": 40,
+    "combined_record_counts": {
+      "pass": 39,
+      "minor_issue": 1,
+      "fail": 0
+    },
+    "interpretation": "不同阶段与调用模式分别保留；合计仅核对记录数量，不是当前版本成功率或路由精确率。"
+  },
+  "multiturn_prompt_revisions": [
+    {
+      "file": "SKILL.md",
+      "before_sha256": "12e6790ee5585671b51930ab7493df5fded6169bd24bb2a0479811152ee9f51f",
+      "after_sha256": "e6aff706c1cfb080cdfa6c0d48bfe7d74ef638fbd309cceb9ff818d7daf410ac"
+    },
+    {
+      "file": "references/10-minimum-experiment.md",
+      "before_sha256": "17e16bcd43f410493583832a505b75f1f2b94deb6424b2e51759084407933f61",
+      "after_sha256": "7f77e36e1ce99c7d31108163bd2cc10e878b6c46dac25163af86042e0001d5a0"
+    },
+    {
+      "file": "references/16-trade-study.md",
+      "before_sha256": "050eefb990090cd8f3ff8a7c3fa9de9a0e8b6b00ce5cd922140100daf54dd9e4",
+      "after_sha256": "69b74197795387f0d00ff895ed727dce730060cc6e754b8ac569280b467cd4fa"
+    }
+  ],
+  "github_current_revision_synced": false,
+  "public_projection": "公开副本将本机绝对路径改为占位标识；来源哈希保留原本地记录的哈希。"
 }
