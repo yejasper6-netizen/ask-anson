@@ -128,11 +128,10 @@
   "independent_loading_trace_audit_completed": false,
   "github_repository_url": "https://github.com/yejasper6-netizen/ask-anson",
   "github_repository_public": true,
-  "github_content_commit": "eb650c0ae93f97561eb520e4b8b3011e3f8d8d64",
+  "github_content_commit": "7907950008e2dead93bc8a30322b52c98a66a861",
   "github_skill_and_archive_hash_match": true,
   "github_initial_tracked_files_verified": 29,
-  "github_latest_verified_commit": "a69272fee685dd6287fa994f3706c52c67eb8005",
-  "github_final_tracked_files_verified": 30,
+  "github_final_tracked_files_verified": 32,
   "multiturn_priority_rules_updated": true,
   "multiturn_behavior_evaluation_completed": true,
   "multiturn_behavior_evaluation_records": "Ask-Anson-多轮测试记录.json",
@@ -173,6 +172,6 @@
       "after_sha256": "69b74197795387f0d00ff895ed727dce730060cc6e754b8ac569280b467cd4fa"
     }
   ],
-  "github_current_revision_synced": false,
+  "github_current_revision_synced": true,
   "public_projection": "公开副本将本机绝对路径改为占位标识；来源哈希保留原本地记录的哈希。"
 }
