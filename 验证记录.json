@@ -1,0 +1,134 @@
+{
+  "checked_date": "2026-10-13 Asia/Shanghai",
+  "skill_name": "ask-anson",
+  "display_name": "Ask Anson",
+  "source_article_prompt_blocks": 12,
+  "new_primary_source_method_entries": 6,
+  "method_files": 18,
+  "skill_format_validation": "Skill is valid!",
+  "reference_links": "19/19 valid",
+  "installed_directory": "<installed-skill>",
+  "old_active_directory_removed": true,
+  "migration_backup_saved": true,
+  "installed_file_hash_match": true,
+  "installed_file_count": 21,
+  "installed_skill_sha256": "12e6790ee5585671b51930ab7493df5fded6169bd24bb2a0479811152ee9f51f",
+  "archive": "<workspace>/outputs/ask-anson.zip",
+  "archive_integrity": "PASS",
+  "installed_files": {
+    "SKILL.md": "12e6790ee5585671b51930ab7493df5fded6169bd24bb2a0479811152ee9f51f",
+    "agents/openai.yaml": "1df1597a0b1df8b5ea9cac498e84d45e8050ed9a05e703280e8dae156d7feaf0",
+    "references/01-socratic-questioning.md": "6c92e6d9161a89c9bc864994ab79bc479e42a83a2d8278887bf456867a99dfdf",
+    "references/02-dual-layer-explain.md": "7c00df19bdf18f0a8b66d25db238c8429c7d03bc3bc5efafe5efa19921c0a3de",
+    "references/03-reverse-teardown.md": "0b10d9760561514bcfbfa8710774542e6547c08600365c2c1826dc4218ede04f",
+    "references/04-cross-axis-research.md": "dca530bc6ec24751be9e28ac4fbe84a1a3614266a3f32fae580b1354ae0d9022",
+    "references/05-fact-check.md": "512cfba96059b0f11d6ff22e85099e1910faaad3e25542478d871e8f5c6eb923",
+    "references/06-expert-panel.md": "8f41e998c85e22aac01d83bd359b7dfc92845e0cb568a36e19def706e8e2dd11",
+    "references/07-first-principles.md": "963a23b712f846c4444f15247154d4f99145e0b611b089dcfa8f89f9879b97e0",
+    "references/08-cross-domain-borrow.md": "5806c1ac4e2de488339e856144cf4392b285108b0e68625cccb1a6cc8cf73264",
+    "references/09-steelman-both-sides.md": "48a4522112cbe424b9ccdd75dccdd3072a9579de3f73fbb1635874f2d348e640",
+    "references/10-minimum-experiment.md": "17e16bcd43f410493583832a505b75f1f2b94deb6424b2e51759084407933f61",
+    "references/11-hidden-talent.md": "97d221e49501a8cd4d535feee59846eec114b5cb0fe3a9f8c74bb046ddb35f5b",
+    "references/12-life-design.md": "996f38953429abc6b40b93090069bce2619409b8a401513322aa697180bee7c5",
+    "references/13-project-premortem.md": "db56a80d4a29b76f74ea40cedbd8e2ef861f231626996c8abd6bab0b8b61f71c",
+    "references/14-theory-of-constraints.md": "7c04fc1a6ac42479e2433759756c8fbd436a307f1745b5902a588038d0416f3b",
+    "references/15-fermi-estimation.md": "d14ec632f803cd866cb8a85d294ff6264700accf63578a41b534d1b76d46399e",
+    "references/16-trade-study.md": "050eefb990090cd8f3ff8a7c3fa9de9a0e8b6b00ce5cd922140100daf54dd9e4",
+    "references/17-cynefin-context.md": "cea38a3034358b5589f200f3d8338cd547d5e05ffe71c418c7ad3e2cc1c8b0f3",
+    "references/18-after-action-review.md": "22965b945640d56ef4c1aaefbf98d45f61378922b31de59c9b9b2f85489090eb",
+    "references/source.md": "516f239cd78079213f3cea5b254ec3b3fc6e5feebbdc3198e431cc18d644ff24"
+  },
+  "fresh_session_catalog_discovery_verified": false,
+  "runtime_behavior_evaluation_completed": true,
+  "answer_quality_improvement_proven": false,
+  "github_publication_completed": true,
+  "chatcut_video_completed": false,
+  "archive_sha256": "43ead60918bc04cc796af17d7aeca06c8e11547801097a6887ccbe07d6eda30e",
+  "archive_current_install_byte_match": true,
+  "runtime_behavior_evaluation_scope": "直接读取已安装入口、选法与方法文件、实际回答；10个受控模拟场景和续答/控制例。",
+  "runtime_behavior_evaluation_records": "Ask-Anson-测试记录.json",
+  "runtime_initial_evaluation": {
+    "total": 30,
+    "counts": {
+      "pass": 29,
+      "minor_issue": 1,
+      "fail": 0
+    },
+    "by_configuration": {
+      "gpt-6-astra high": {
+        "pass": 10,
+        "minor_issue": 0,
+        "fail": 0
+      },
+      "gpt-6.1-sol high": {
+        "pass": 10,
+        "minor_issue": 0,
+        "fail": 0
+      },
+      "gpt-6.1-sol low": {
+        "pass": 9,
+        "minor_issue": 1,
+        "fail": 0
+      }
+    },
+    "route_fit_pass": 30,
+    "reason_sufficiency_pass": 30,
+    "numeric_cases_checked": 15,
+    "numeric_errors_found": 0,
+    "critical_failures": [],
+    "concrete_issues": [
+      {
+        "configuration": "gpt-6.1-sol low",
+        "case_id": "C08",
+        "severity": "minor",
+        "issue": "生活例子和在制量映射对纯等待/总停留边界不够一致；后文纠正了定义但未消除开头歧义。"
+      }
+    ],
+    "interpretation": "本组样例未发现关键失败；29项通过，1项轻微问题。三配置都能在所给清晰场景中选法并完成主要回答，不能据10个场景或单次输出宣称配置间稳定优劣。"
+  },
+  "runtime_followup_evaluation": {
+    "total": 4,
+    "pass": 3,
+    "minor_issue": 1,
+    "fail": 0,
+    "conclusions": [
+      "三份C07均利用新增事实给出明确受控定制建议和转向标准产品的条件，无继续访谈。",
+      "Sol low C07存在把愿签客户说成已有付费试点的轻微证据措辞问题，后文作了限制；不影响主要方向判断但建议修正。",
+      "Sol low C08复测通过，本次未重现原来概念边界问题，且参考文件哈希一致。"
+    ],
+    "limitations": "独立模型的样例内容评审，不能据单次复测证明修订普遍有效，不能据此建立配置性能排名；未使用记忆或外部业务资料。"
+  },
+  "runtime_final_control_evaluation": {
+    "total": 2,
+    "pass": 1,
+    "minor_issue": 1,
+    "fail": 0,
+    "automatic_route_result": "方法10为有理由的替代路由，主要用户要求已满足；新增实验判据有轻微缺口。不能据此验证09修订。",
+    "explicit09_control_result": "方法09执行通过，事实限定在立论处保留；不验证自动路由。",
+    "limitations": "文本级独立模型评审；哈希一致核对当前文件与报告记录，不能仅凭记录独立证明加载轨迹。两个样例不可合并为自动路由通过，也不支持普遍效果或修订因果结论。"
+  },
+  "prompt_revisions": [
+    {
+      "method": "02",
+      "reference": "references/02-dual-layer-explain.md",
+      "before_sha256": "e2e8d3f46915262ca02c6da75cde6dab5f286401967baf459ae59774b9f74345",
+      "after_sha256": "7c00df19bdf18f0a8b66d25db238c8429c7d03bc3bc5efafe5efa19921c0a3de"
+    },
+    {
+      "method": "09",
+      "reference": "references/09-steelman-both-sides.md",
+      "before_sha256": "30188f59e2ef60fc1cd6c722a009b373db109f73248312176cd1e72f730878db",
+      "after_sha256": "48a4522112cbe424b9ccdd75dccdd3072a9579de3f73fbb1635874f2d348e640"
+    }
+  ],
+  "router_changed_during_prompt_repairs": false,
+  "route_stability_statistics_verified": false,
+  "all_18_methods_behavior_verified": false,
+  "real_business_execution_verified": false,
+  "independent_loading_trace_audit_completed": false,
+  "github_repository_url": "https://github.com/yejasper6-netizen/ask-anson",
+  "github_repository_public": true,
+  "github_content_commit": "eb650c0ae93f97561eb520e4b8b3011e3f8d8d64",
+  "github_skill_and_archive_hash_match": true,
+  "github_initial_tracked_files_verified": 29
+}
