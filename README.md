@@ -8,6 +8,16 @@ Ask Anson 把这些场景整理成一个可以主动调用的 Skill。你只需�
 
 不用记住一整套提示词，也不用先学会十八种方法。把问题带来，让 Ask Anson 帮你形成判断和下一步。
 
+## 64 秒看懂 Ask Anson
+
+视频逐个展示 18 个思维工具的用途，并用连续场景说明：从说出问题、自动选法，到比较选择、验证需求、检查风险和复盘改进。
+
+[![Ask Anson：18 个思维工具，按问题自动选择](docs/media/ask-anson-video-poster.jpg)](docs/media/ask-anson-64s.mp4)
+
+[查看视频文件](docs/media/ask-anson-64s.mp4) · [下载 MP4](https://github.com/yejasper6-netizen/ask-anson/raw/refs/heads/main/docs/media/ask-anson-64s.mp4)
+
+1080p 横版，约 64 秒，含配乐和动效音。视频中的业务场景为功能演示。
+
 ## 安装
 
 下载 [Skill安装包](ask-anson.zip)，解压后把 `ask-anson` 文件夹放入你的 Codex Skill 目录。默认目录为 `~/.codex/skills/`；自定义了 `CODEX_HOME` 时使用对应的 `skills/` 目录。
